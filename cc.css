@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-style: bold;
+
+}
+
+body {
+    background-color: #161718;
+    background-size: cover;
+}
+
+.sidebar {
+    background-color: transparent;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    height: 0vh;
+    margin-top: 4px;
+    float: right;
+    padding-right: 20px;
+
+}
+
+.sidebar nav li a {
+    text-decoration: none;
+    color: whitesmoke;
+    margin-top: 10px;
+}
+
+.sidebar nav ul li {
+    list-style: none;
+    padding: 5px 15px;
+    display: inline;
+    margin: 5px;
+    height: 10px;
+}
+
+
+.nav-wrapper {
+    padding: 10px;
+    padding-left: 25px;
+    margin-top: 10px;
+
+
+}
+
+.portfolio {
+    display: inline-block;
+    color: #C70039;
+    font-weight: bolder;
+    margin: 10PX;
+    font-size: 20px;
+    display: inline;
+    text-decoration: none;
+
+}
+
+.ab {
+    background-color: #C70039;
+    height: 5px;
+    border: solid 1px #C70039;
+    border-radius: 3px;
+    padding: 8px 14px;
+    margin-left: 0px;
+    cursor: pointer;
+}
+
+
+
+.row1 {
+    height: 20vh;
+    padding: 20px;
+    margin: auto;
+    margin-top: 40px;
+    width: 80vw;
+    display: flex;
+
+
+}
+
+.row2 {
+    height: 20vh;
+    padding: 20px;
+    margin: auto;
+    margin-top: 40px;
+    width: 80vw;
+    display: flex;
+
+
+}
+
+.column1 {
+    float: left;
+    width: 25%;
+    padding: 5px;
+    height: auto;
+    margin: 5px auto;
+}
+
+.column2 {
+    float: left;
+    width: 25%;
+    padding: 5px;
+    height: auto;
+    margin: 5px auto;
+
+}
+
+.card1 {
+    background: #C70039;
+    color: whitesmoke;
+    background-size: cover;
+    height: 40px;
+    width: 180px;
+    text-align: center;
+    padding: 60px;
+    margin: auto;
+    font-size: 10px;
+}
+
+/*
+.card2 {
+background: #2F2F2F;
+background-size: cover;
+height: 50px;
+width: 200px;
+text-align: center;
+padding: 30px;
+margin: 0px;
+margin-right: 100px;
+
+}
+.card3 {
+background: #2F2F2F;
+background-size: cover;
+height: 50px;
+width: 200px;
+text-align: center;
+padding: 30px;
+margin: 0px;
+margin-right: 100px;
+} */

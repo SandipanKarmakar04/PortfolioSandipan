@@ -1,0 +1,322 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-style: bold;
+
+}
+
+body {
+    background-color: #161718;
+    background-size: cover;
+}
+
+.sidebar {
+    background-color: transparent;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    height: 0vh;
+    margin-top: 4px;
+    float: right;
+    padding-right: 20px;
+
+}
+
+.sidebar nav li a {
+    text-decoration: none;
+    color: whitesmoke;
+    margin-top: 10px;
+}
+
+.sidebar nav ul li {
+    list-style: none;
+    padding: 5px 15px;
+    display: inline;
+    margin: 5px;
+    height: 10px;
+}
+
+
+.nav-wrapper {
+    padding: 10px;
+    padding-left: 25px;
+}
+
+.portfolio {
+    display: inline-block;
+    color: #C70039;
+    font-weight: bolder;
+    margin: 10PX;
+    font-size: 20px;
+    display: inline;
+    text-decoration: none;
+
+}
+
+.ab {
+    background-color: #C70039;
+    height: 5px;
+    border: solid 1px #C70039;
+    border-radius: 3px;
+    padding: 8px 14px;
+    margin-left: 0px;
+    cursor: pointer;
+}
+
+.container {
+    padding-top: 10px;
+
+}
+
+.main {
+    /* background-color: aquamarine; */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 100vw;
+    display: inline;
+}
+
+.infoContainer {
+
+    height: 45vh;
+    width: 70vw;
+    margin: 80px auto;
+    justify-content: space-around;
+    padding: 0px;
+}
+
+.devInfo {
+    width: 60vw;
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+    padding-top: 0px;
+    padding-left: 25px;
+    padding-bottom: 20px;
+
+}
+
+.devPic1 {
+    height: 14vh;
+    width: 14vh;
+    border-radius: 100%;
+    margin-top: -210px;
+    display: inline;
+    justify-content: right;
+    float: right;
+    flex-direction: column;
+    padding: 0px;
+    padding-bottom: 0px;
+    border: solid 2px #C70039;
+    background-color: #C70039;
+
+}
+
+.devPic2 {
+    height: 40vh;
+    width: 40vh;
+    border-radius: 100%;
+    margin-top: -210px;
+    display: inline;
+    justify-content: right;
+    float: right;
+    flex-direction: column;
+    padding: 0px;
+    padding-bottom: 0px;
+
+    border: solid 2px #C70039;
+
+}
+
+.welcome {
+    padding-top: 70px;
+    padding-bottom: 0px;
+    display: flex;
+    font-weight: bold;
+    font-size: 10px;
+    text-decoration: none;
+    color: whitesmoke;
+    font-weight: lighter;
+
+}
+
+.hello {
+    font-size: 50px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    color: whitesmoke;
+
+}
+
+.about {
+    font-size: 12px;
+    padding: 10px;
+    padding-left: 0px;
+    padding-bottom: 15px;
+    color: whitesmoke;
+    text-align: justify;
+}
+
+.buttons button {
+    padding: 8px 14px;
+    margin-left: 0px;
+    cursor: pointer;
+    border-radius: 60px;
+    background-color: #FFF;
+    border: solid 1px #587898;
+    color: #587898;
+}
+
+.buttons button:hover {
+    box-shadow: 10px;
+    color: #FFF;
+    background-color: #587898;
+}
+
+.name {
+    display: flex;
+    font-weight: bold;
+    font-size: 18px;
+    text-decoration: none;
+    color: #C70039;
+    font-weight: normal;
+}
+
+.contactinfo {
+    display: flex;
+    font-weight: bold;
+    font-size: 15px;
+    text-decoration: none;
+    color: whitesmoke;
+    font-weight: normal;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.profile {
+
+    margin-top: 5px;
+    display: flex;
+    font-weight: normal;
+    font-size: 13px;
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.email {
+    display: flex;
+    font-weight: normal;
+    font-size: 13px;
+    color: whitesmoke;
+}
+
+.birthday {
+    display: flex;
+    font-weight: normal;
+    font-size: 13px;
+    color: whitesmoke;
+}
+
+h4 {
+    font-size: 11px;
+    font-weight: normal;
+    color: #4E5256;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    margin-left: 27.5px;
+
+}
+
+h4 a {
+    text-decoration: none;
+    color: #0071E2;
+
+
+
+}
+
+.nameinfo {
+    display: flex;
+    font-weight: bold;
+    font-size: 15px;
+    text-decoration: none;
+    color: whitesmoke;
+    font-weight: normal;
+    margin-bottom: 10px;
+}
+
+input {
+    cursor: pointer;
+}
+
+/* this will keep the element fixed at the center */
+#centerDIV {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: linear-gradient(to right, rgba(0, 0, 0, 22), rgba(0, 0, 22));
+    width: 100%;
+    height: 100%;
+    padding-top: 100px;
+    display: none;
+    /* keep the element hidden */
+}
+
+/* this element will float */
+.divFloat {
+    margin: 50px auto;
+    background-color: #161718;
+    border: solid 1px #999;
+    color: solid #000;
+    width: 400px;
+    height: 200px;
+    padding: 20px;
+    -webkit-border-radius: 3px;
+    -webkit-box-orient: vertical;
+    -webkit-transition: 200ms -webkit-transform;
+    box-shadow: 0 4px 23px 5px rgba(0, 0, 0, 70), 0 2px 6px rgba(0, 0, 0, 70);
+    display: block;
+}
+
+.btClickHere1 {
+    padding: 8px 14px;
+    margin-left: 0px;
+    cursor: pointer;
+    border-radius: 3px;
+    background-color: transparent;
+    border: solid 1px #C70039;
+    color: #C70039;
+}
+
+.btClickHere2 {
+    background-color: #C70039;
+    border: solid 1px #C70039;
+    color: #FFF;
+    padding: 8px 14px;
+    margin-left: 5px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+.btClose {
+    margin: 0 auto;
+    background-color: #161718;
+    color: #4E5256;
+    border: none;
+    width: auto;
+    float: right;
+    clear: both;
+}
+
+/* .btClose:hover{
+color: #4E5256;
+background-color: lightgray;
+background-size: 50px;
+border: 10px;
+border-width: 10px;
+border-radius: 10px;
+border-block-width: 20px;
+border-block-width: 20px ;
+} */

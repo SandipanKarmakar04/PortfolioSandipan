@@ -5,93 +5,105 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Web Developer</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>Document</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
 </head>
 
 <body>
 
-    <div class="container">
-        <nav>
+    <!-- NAVBAR START -->
+    <nav class="navbar navbar-expand-lg navbar-dark " style="background-color: #161718;">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html" style="color: #C70039;">PORTFOLIO</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
 
-            <div class="nav-wrapper">
-                <a href="index.html" class="portfolio">PORTFOLIO</a>
-
-                <div class="sidebar">
-                    <nav>
-                        <ul>
-                            <li class="ab"><a href="index.html">Home</a></li>
-                            <li><a href="education.html">Education</a></li>
-                            <li><a href="certificate.html">Certificate</a></li>
-                            <li><a href="about.html">About</a></li>
-                        </ul>
-                    </nav>
-                </div>
-            </div>
-        </nav>
-
-        <div class="main">
-            <div class="infoContainer">
-                <div class="devInfo">
-                    <div class="welcome">WELCOME</div>
-                    <div class="hello">Hi, I'm Sandipan</div>
-                    <div class="name">A Fullstack Developer</div>
-                    <div class="about"><p->Web developer with 1+ year of experience in front-end and back-end
-                            technologies. Having knowledge of creating responsive
-                            websites to developing complex web applications. I am comfortable working with databases and
-                            have experience with MySQL.</p-></div>
-
-
-                    <!-- BUTTONS -->
-                    <div class="buttons">
-                        <a href="/asset/resume.pdf" target="blank"><input type="button" class="btClickHere1"
-                                value="Resume"></a>
-                        <input type="button" id="btClick" class="btClickHere2" value="Contact info" />
-                        <div id="centerDIV">
-                            <!-- The element which will float at the center of the screen -->
-                            <div class="divFloat">
-                                <input type="button" id="btClose" class="btClose" value="Close" />
-                                <ul>
-                                    <li class="nameinfo">Sandipan Karmakar</li>
-                                    <hr>
-                                    <li class="contactinfo">Contact info</li>
-
-                                    <li class="profile"><i class="fa fa-linkedin-square"
-                                            style="font-size:20px; margin-right: 10px; color: whitesmoke;"></i>Profile
-                                    </li>
-                                    <h4><a
-                                            href="https://www.linkedin.com/in/sandipan-karmakar-b5a049175/">linkedin.com/in/sandipan-karmakar-b5a049175/</a>
-                                    </h4>
-
-                                    <li class="email"><i class="fa fa-envelope-o"
-                                            style="font-size:18px; margin-right: 10px; color: whitesmoke;"></i>Email
-                                    </li>
-                                    <h4><a href="sandipankarmakar04@gmail.com">sandipankarmakar04@gmail.com</a></h4>
-
-
-                                    <li class="birthday"><i class="fa fa-birthday-cake"
-                                            style="font-size:18px; margin-right: 10px; color: whitesmoke;"></i>Birthday
-                                    </li>
-                                    <h4>January 4</h4>
-                                </ul>
-
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-
-                <div class="devPic1">
-                    <!-- <img src="asset/s1.jpg" alt="" srcset=""height="100%" width="auto" > -->
-                </div>
-                <div class="devPic2">
-                    <!-- <img src="asset/s1.jpg" alt="" srcset=""height="100%" width="auto" > -->
-                </div>
-
+            <div class="collapse navbar-collapse " id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li><a class="nav-link" href="profile.html">Profile</a></li>
+                </ul>
             </div>
         </div>
+    </nav>
+    <!-- NAVBAR END -->
+
+    <!-- CONTENT START -->
+    <div class="main">
+        <div class="infoContainer">
+            <div class="devInfo">
+                <div class="welcome">WELCOME</div>
+                <div class="hello">Hi, I'm Sandipan</div>
+                <div class="name">A Fullstack Developer</div>
+                <div class="about"><p->Web developer with 1+ year of experience in front-end and back-end technologies.
+                        Having knowledge of creating responsive
+                        websites to developing complex web applications. I am comfortable working with databases and
+                        have experience with MySQL.</p-></div>
+                <div class="buttons">
+                    <button type="button" class="btn1" style="color: #C70039; font-size: 14px;"><a
+                            href="/asset/resume.pdf" target="blank"
+                            style="color: #C70039; text-decoration: none;">Resume</a></button>
+                </div>
+
+
+            </div>
+            <div class="devPic1">
+                <!-- <img src="asset/s1.jpg" alt="" srcset=""height="100%" width="auto"  > -->
+            </div>
+            <div class="devPic2">
+                <!-- <img src="asset/s1.jpg" alt="" srcset=""height="100%" width="auto"  > -->
+            </div>
+
+        </div>
+
     </div>
+    <!-- CONTENT END -->
+
+    <!-- SOCIAL LINKS START -->
+    <div class="social"
+        style="float: right; display: flex; position: relative; padding-bottom: 0px;margin-bottom: 0px;">
+        <li style="text-decoration: none; display: flex; padding: 10px; float: right; margin-bottom: 0px;"><a
+                href="https://www.linkedin.com/in/sandipan-karmakar-b5a049175/" target="blank"
+                style="text-decoration: none;"><i class="fa fa-linkedin"
+                    style="font-size:15px;  color: rgb(82, 82, 82); text-decoration: none; display: flex;"></i></a>
+        </li>
+
+        <li style="text-decoration: none; display: flex; padding: 10px; float: right;"><a href="https://facebook.com"
+                target="blank" style="text-decoration: none;"><i class="fa fa-facebook"
+                    style="font-size:15px;  color: rgb(82, 82, 82); text-decoration: none; display: flex;"></i></a>
+        </li>
+
+        <li style="text-decoration: none; display: flex; padding: 10px; float: right;"><a
+                href="https://instagram.com" target=" blank" style="text-decoration: none;"><i class="fa fa-instagram"
+                    style="font-size:15px;  color: rgb(82, 82, 82); text-decoration: none; display: flex;"></i></a>
+        </li>
+
+        <li style="text-decoration: none; display: flex; padding: 10px; float: right;"><a
+                href="https://twitter.com" target=" blank" style="text-decoration: none;"><i class="fa fa-twitter"
+                    style="font-size:15px;  color: rgb(82, 82, 82); text-decoration: none; display: flex;"></i></a>
+        </li>
+    </div>
+    <!-- SOCIAL LINKS END -->
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+        </script>
 
     <script>
         window.addEventListener('click', function (e) {

@@ -1,0 +1,46 @@
+body {
+    background-color: #161718;
+}
+
+.navbar-brand {
+    color: #C70039;
+}
+.main {
+    /* background-color: aquamarine; */
+    margin: auto;
+    width: 100vw;
+    display: inline;
+  
+}
+
+.profile {
+
+    margin-top: 5px;
+    display: flex;
+    font-weight: normal;
+    font-size: 13px;
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.email {
+    display: flex;
+    font-weight: normal;
+    font-size: 13px;
+    color: whitesmoke;
+}
+.nameinfo {
+    display: flex;
+    font-weight: bold;
+    font-size: 15px;
+    text-decoration: none;
+    color: whitesmoke;
+    font-weight: normal;
+    margin-bottom: 10px;
+    margin-left: 0px;
+}
+.card-img{
+
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
